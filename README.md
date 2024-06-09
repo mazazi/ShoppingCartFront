@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
+#install node modules 
+npm install
+
+# Ensure all Angular packages are on version 15
+npm install @angular/animations@15 @angular/cdk@15 @angular/common@15 @angular/compiler@15 @angular/core@15 @angular/forms@15 @angular/platform-browser@15 @angular/platform-browser-dynamic@15 @angular/router@15
+
+# Install Angular Material version 15
+npm install @angular/material@15
+
+# install toastr
+ npm install ngx-toastr --save
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
