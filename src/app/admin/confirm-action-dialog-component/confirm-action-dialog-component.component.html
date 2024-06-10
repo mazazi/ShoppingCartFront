@@ -1,0 +1,13 @@
+<div class="dialog">
+    <h1 mat-dialog-title>
+        <span [innerHTML]="title"></span>
+    </h1>
+    <mat-dialog-content>
+        <p [innerHTML]="data.message"></p>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end">
+
+         <a mat-raised-button  class="mor_btn" mat-dialog-close="yes" (click)="onYesClick()" cdkFocusInitial>Yes</a> &nbsp;
+        <button mat-raised-button class="mor-back_btn" mat-dialog-close="no" (click)="onNoClick()">No</button>
+    </mat-dialog-actions>
+</div>

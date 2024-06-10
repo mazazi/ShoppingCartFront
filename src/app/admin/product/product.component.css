@@ -1,0 +1,88 @@
+.mat-mdc-card-content:last-child {
+  padding-bottom: 0px;
+}
+.mat-mdc-card-content:first-child {
+  padding-top: 0px;
+}
+ 
+.mat-mdc-card-content {
+  display: block;
+  padding: 0 104px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.mdc-data-table__header-row {
+  height: 38px;
+  background-color: rgb(63, 81, 181) !important;
+}
+
+.mdc-data-table__table {
+  min-width: 100%;
+  border: 0;
+  white-space: nowrap;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.mat-mdc-paginator-container {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.mat-mdc-paginator-outer-container {
+  display: flex;
+  width: 60%;
+}
+
+.mor_btn:hover {
+  border: solid 1px #c7a66c;
+  border-radius: 50px;
+  transition: box-shadow 0.3s ease-in-out;
+  -webkit-box-shadow: -1px 2px 21px 1px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: -1px 2px 21px 1px rgba(0, 0, 0, 0.43);
+  box-shadow: -1px 2px 21px 1px rgba(0, 0, 0, 0.43);
+  text-align: center;
+  background-color: #c7a66c;
+  color: #fff;
+}
+
+.mor_btn {
+  border: solid 1px #5f7030;
+  background-color: #5f7030;
+  border-radius: 50px;
+  width: 16%;
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 29px;
+  font-size: 25px !important;
+}
+
+.create-new {
+  position: fixed;
+  top: 137px;
+  right: 20px;
+  width: 16%;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(63, 81, 181);
+  font-size: 25px !important; 
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.save-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -37px;
+}
+
+.save-button {
+  background-color: green;
+  color: white;
+}

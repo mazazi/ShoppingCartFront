@@ -1,0 +1,40 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            <h1 *ngIf="!product.id">Add New Product</h1>
+            <h1 *ngIf="product.id">Update Product</h1>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    &nbsp;
+    <mat-card-content>
+        <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+            <mat-form-field>
+                <input matInput placeholder="Product Name" formControlName="name" required [(ngModel)]="product.name"
+                    maxlength="500" />
+                <mat-error> Product Name is Required </mat-error>
+            </mat-form-field>
+            &nbsp;
+            <mat-form-field>
+                <input matInput placeholder="Price" formControlName="price" required [(ngModel)]="product.price" />
+                <mat-error> Price is Required </mat-error>
+            </mat-form-field>
+            &nbsp;
+            <mat-form-field>
+                <input matInput placeholder="Quantity" formControlName="qty" required type="number" min="1"
+                    [(ngModel)]="product.qty" />
+            </mat-form-field>
+            &nbsp;
+            <mat-slide-toggle class="example-margin" formControlName="isVisible" [(ngModel)]="product.isVisible">
+            </mat-slide-toggle>
+            &nbsp;
+            <div style="margin: 2px; text-align: right">
+                <a mat-raised-button color="default" [routerLink]="['/products/']" class="mor-back_btn">
+                    back
+                </a>
+                &nbsp;
+                <button mat-raised-button class="success">save</button>
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,4 @@
+.mat-mdc-raised-button.mat-unthemed {
+    --mdc-protected-button-container-color: #0cea44;
+    --mdc-protected-button-label-text-color: #000;
+  }

@@ -1,0 +1,43 @@
+mat-card {
+    max-width: 50%;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  mat-form-field {
+    display: block;
+  }
+
+  
+.mor_btn:hover {
+  border: solid 1px #C7A66C;
+  border-radius: 50px;
+  transition: box-shadow 0.3s ease-in-out;
+  -webkit-box-shadow: -1px 2px 21px 1px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: -1px 2px 21px 1px rgba(0, 0, 0, 0.43);
+  box-shadow: -1px 2px 21px 1px rgba(0, 0, 0, 0.43);
+  text-align: center;
+  background-color: #C7A66C;
+  color: #fff;
+}
+
+.mor_btn {
+  border: solid 1px #5F7030;
+  background-color: #5F7030;
+  border-radius: 50px;
+  width: 16%;
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 29px;
+}
+
+
+.mor-back_btn {
+  border: solid 1px #5F7030;
+  background-color: #f11a1a;
+  border-radius: 50px;
+  width: 16%;
+  height: 40px;
+  padding-top: 5px;
+  margin-bottom: 29px;
+}
