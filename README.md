@@ -14,6 +14,8 @@ npm install @angular/material@15
 # install toastr
  npm install ngx-toastr --save
 
+# change API url for backend 
+ you can modify on enviroment.ts file. 
 
 ## Development server
 
